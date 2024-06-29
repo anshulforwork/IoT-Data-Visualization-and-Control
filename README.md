@@ -65,7 +65,7 @@ Before you begin, ensure you have the following installed:
     mosquitto -v -c mosquitto.conf
     ```
 
-2. **Edit `mqtt_client2.py`: Modify the MQTT server address:**
+2. **Edit `sample_soft_mqtt_client.py`: Modify the MQTT server address:**
 
     ```python
     mqtt_server = "your-mqtt-server-address"
@@ -95,12 +95,12 @@ Before you begin, ensure you have the following installed:
 
 ## Configuration
 
-- **`mqtt_client2.py`**: Modify `mqtt_server` variable to set your MQTT server address.
+- **`sample_soft_mqtt_client.py`**: Modify `mqtt_server` variable to set your MQTT server address.
 - **Node-RED**: Customize the UI and flows using Node-RED's visual editor.
 
 ## Project Structure
 
-1. **`mqtt_client2.py`**: MQTT client script.
+1. **`sample_soft_mqtt_client.py`**: MQTT client script.
 2. **`flows.json`**: Node-RED flow configuration.
 3. **`nodered_setup.bat`**: Batch script for setting up Node-RED dependencies.
 4. **`nodered_package.bat`**: Batch script for setting up Node-RED packages.
