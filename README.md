@@ -26,6 +26,7 @@ Before you begin, ensure you have the following installed:
 - [MQTT Explorer](https://mqtt-explorer.com/)
 - [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - [Node.js](https://nodejs.org/)
+-path should be added on system variable of mosquitto broker node js nodered and miniconda
 
 ## Installation
 
@@ -49,6 +50,11 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    nodered_setup.bat
+
+5. **Run the Node-RED package setup script:**
+
+   ```bash
+   nodered_package.bat
 
 
 ## Usage
@@ -97,8 +103,9 @@ Before you begin, ensure you have the following installed:
 1. **`mqtt_client2.py`**: MQTT client script.
 2. **`flows.json`**: Node-RED flow configuration.
 3. **`nodered_setup.bat`**: Batch script for setting up Node-RED dependencies.
-4. **`environment.yml`**: Conda environment configuration file.
-5. **`README.md`**: This documentation file.
+4. **`nodered_package.bat`**: Batch script for setting up Node-RED packages.
+5. **`environment.yml`**: Conda environment configuration file.
+6. **`README.md`**: This documentation file.
 
 ## Contributing
 
